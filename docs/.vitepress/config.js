@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "en-US",
   title: "Viktor Vidaković",
-  description: "Vite & Vue powered static site generator.",
+  description: "Vite & Vue & Md & Tailwind & Minisearch powered static site.",
   themeConfig: {
     returnToTopLabel:'Go to top',
     search: {

@@ -1,4 +1,11 @@
-# Hello World {.text-3xl .font-bold .underline}
+# Hello visitor 
+some random text {.text-3xl .font-bold .underline}
+
+<script setup lang="ts">
+  import MyCarousel from './.vitepress/components/MyCarousel.vue'
+</script>
+
+<MyCarousel />
 
 <div class="my-8 max-w-xs rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-slate-800">
   <div>
