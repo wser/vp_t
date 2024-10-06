@@ -1,8 +1,8 @@
 <script setup>
   import { onMounted } from 'vue'
-  import emblaCarouselVue from '../public/embla-carousel-vue'
+  import emblaCarouselVue from 'embla-carousel-vue'
 
-  const [emblaRef, emblaApi] = emblaCarouselVue({ loop: false })
+  const [emblaRef, emblaApi] = emblaCarouselVue({ loop: true })
 
   onMounted(() => {
     if (emblaApi.value) {

@@ -1,8 +1,9 @@
-# Hello visitor 
+# Hello visitor
+
 some random text {.text-3xl .font-bold .underline}
 
 <script setup lang="ts">
-  import MyCarousel from './.vitepress/components/MyCarousel.vue'
+  import MyCarousel from './components/MyCarousel.vue'
 </script>
 
 <MyCarousel />
@@ -16,7 +17,6 @@ some random text {.text-3xl .font-bold .underline}
   <h3 class="mt-5 text-base font-medium tracking-tight text-slate-900 dark:text-white">Writes Upside-Down</h3>
   <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.</p>
 </div>
-
 
 # Configuring TailwindCSS to work with Vitepress
 
