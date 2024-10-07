@@ -4,9 +4,9 @@ import {
   onMounted,
   shallowRef,
   watch
-} from "./chunk-CZX7GLWV.js";
+} from "./chunk-Q56VL3NH.js";
 
-// node_modules/embla-carousel-reactive-utils/esm/embla-carousel-reactive-utils.esm.js
+// node_modules/.pnpm/embla-carousel-reactive-utils@8.3.0_embla-carousel@8.3.0/node_modules/embla-carousel-reactive-utils/esm/embla-carousel-reactive-utils.esm.js
 function isObject(subject) {
   return Object.prototype.toString.call(subject) === "[object Object]";
 }
@@ -44,7 +44,7 @@ function arePluginsEqual(pluginsA, pluginsB) {
   });
 }
 
-// node_modules/embla-carousel/esm/embla-carousel.esm.js
+// node_modules/.pnpm/embla-carousel@8.3.0/node_modules/embla-carousel/esm/embla-carousel.esm.js
 function isNumber(subject) {
   return typeof subject === "number";
 }
@@ -1661,7 +1661,7 @@ function EmblaCarousel(root, userOptions, userPlugins) {
 }
 EmblaCarousel.globalOptions = void 0;
 
-// node_modules/embla-carousel-vue/esm/embla-carousel-vue.esm.js
+// node_modules/.pnpm/embla-carousel-vue@8.3.0_vue@3.5.11/node_modules/embla-carousel-vue/esm/embla-carousel-vue.esm.js
 function emblaCarouselVue(options = {}, plugins = []) {
   const isRefOptions = isRef(options);
   const isRefPlugins = isRef(plugins);

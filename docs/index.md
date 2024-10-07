@@ -8,6 +8,9 @@ some random text {.text-3xl .font-bold .underline}
 
 <MyCarousel />
 
+<!--@include:.vitepress/vv.md-->
+<!--@include:.vitepress/stack.md-->
+
 <div class="my-8 max-w-xs rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-slate-800">
   <div>
     <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg">

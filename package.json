@@ -9,6 +9,7 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
+    "embla-carousel-auto-scroll": "^8.3.0",
     "embla-carousel-autoplay": "^8.3.0",
     "embla-carousel-vue": "^8.3.0",
     "postcss-flexbugs-fixes": "^5.0.2",
